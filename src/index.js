@@ -1,24 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ClassComponent from './ClassComponent';
-import TwoWayBindingComponent from './TwoWayBindingComponent';
+// import TestfunComponent from './TestfunComponent';
+// import TestclassComponent from './TestclassComponent';
+
+// import ClassComponent from './ClassComponent';
+// import TwoWayBindingComponent from './TwoWayBindingComponent';
 import ParentComponent from './ParentComponent';
-import DynamicToggle from './DynamicToggle';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('test'));
 root.render(
-  // <React.StrictMode>
   <div>
-    <ClassComponent title="State Management"/>
-    <TwoWayBindingComponent/>
     <ParentComponent/>
-    <DynamicToggle/>
   </div>
-  // </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();

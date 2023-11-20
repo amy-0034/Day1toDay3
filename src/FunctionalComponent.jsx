@@ -1,8 +1,8 @@
 import React from 'react'
 
-function FunctionalComponent() {
+function FunctionalComponent(obj) {
   return (
-    <div>FunctionalComponent</div>
+    <div>{obj.name}</div>
   )
 }
 
